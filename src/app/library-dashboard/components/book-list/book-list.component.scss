@@ -1,0 +1,15 @@
+.book-list {
+  
+  .library-grid-wrapper{
+    width: 100%;
+  }
+
+  .library-grid {
+    display: grid;
+    grid-template-columns: 33% 25% 42%;
+  }
+
+  .header {
+    font-weight: bold;
+  }
+}

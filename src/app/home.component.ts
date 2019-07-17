@@ -4,7 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   template: `
     <div>
-      Library app!
+      <span>
+        Go to the 
+        <a routerLink="/books" class="menu-item">Library</a>
+      </span>
     </div>
   `
 })
